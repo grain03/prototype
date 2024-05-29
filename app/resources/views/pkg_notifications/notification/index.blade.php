@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('title', __('pkg_notifications/notification.singular'))
 
+
 @section('content')
     <div class="content-header">
         @if (session('success'))
